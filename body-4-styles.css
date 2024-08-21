@@ -1,0 +1,51 @@
+.body-4 {
+  background-color: white;
+  height:650px;
+  display:flex;
+  flex-direction: row;
+  color:black;
+}
+
+.body-4-image {
+  display: flex;
+  flex-direction: row;
+  padding-left: 300px;
+  padding-top:50px;
+  padding-bottom:50px;
+  max-width:550px;
+}
+
+.body-4-heading {
+  display:block;
+  font-size:32px;
+  font-weight:500;
+  width:450px;
+}
+
+.body-4-catchphrase {
+  display: block;
+  font-size:14px;
+  margin-top:24px;
+}
+
+.body-4-text {
+  color:black;
+  font-family: 'Uber Move Text', sans-serif,Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding:100px;
+  padding-right: 300px;
+  width: 400px;
+}
+
+.get-started-button {
+  border:none;
+  background-color: black;
+  color:white;
+  border-radius: 8px;
+  margin-top:20px;
+  padding:20px;
+  padding-top:12px;
+  padding-bottom:12px;
+  font-family: 'Uber Move Text', sans-serif,Arial, Helvetica, sans-serif;
+  font-weight:400;
+}

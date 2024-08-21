@@ -1,0 +1,109 @@
+.body-1 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height:650px;
+}
+
+.body-1-text {
+  color:white;
+  font-family: 'Uber Move Text', sans-serif,Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding:100px;
+  padding-left: 300px;
+  width:500px;
+}
+
+.body-1-heading {
+  font-size:46px;
+  font-weight:500;
+}
+
+.body-1-catchphrase {
+  font-size:14px;
+  margin-top:24px;
+}
+
+.body-1-image {
+  display: flex;
+  flex-direction: row;
+  padding-right: 100px;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+img {
+  display: block;
+  max-width: 558px;
+  max-height:697.5px;
+  width: auto;
+  height: auto;
+}
+
+.location-textbox {
+  display: flex;
+  padding-left:40px;
+  padding-right:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:14px;
+  border:none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-family: 'Uber Move Text', sans-serif,Arial, Helvetica, sans-serif;
+  width: 250px;
+}
+
+.send-location-button {
+  display: block;
+  padding-left :110px;
+  padding-right:18px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:14px;
+  border:none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-left:-50px;
+  background-color: white;
+}
+
+.location-textbox-container {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+  }
+
+.location-textbox-container input:focus, .input-container input:active {
+    outline: none;
+}
+.location-textbox input {
+    border: none;
+}
+
+
+.destination-textbox {
+  display: block;
+  padding-left:40px;
+  padding-right:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:14px;
+  border:none;
+  border-radius:8px;
+  font-family: 'Uber Move Text', sans-serif,Arial, Helvetica, sans-serif;
+  width:250px;
+}
+
+.prices-button {
+  border:none;
+  background-color: white;
+  color:black;
+  border-radius: 8px;
+  margin-top:20px;
+  padding:20px;
+  padding-top:12px;
+  padding-bottom:12px;
+  font-family: 'Uber Move Text', sans-serif,Arial, Helvetica, sans-serif;
+  font-weight:400;
+}

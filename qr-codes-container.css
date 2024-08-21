@@ -1,0 +1,59 @@
+.apps-heading {
+  color:black;
+  display: flex;
+  flex-direction: row;
+}
+
+.headings {
+  font-family: 'Uber Move Text', sans-serif,Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.qr-code-container {
+  width: 440px;
+  height: 170px;
+  display:flex;
+  background-color: white;
+  border:none;
+  margin: 30px;
+}
+
+.qr-codes {
+  display: flex;
+  justify-content: center;
+  padding-left:300px;
+  font-family: 'Uber Move Text', sans-serif,Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding:100px;
+  margin-left: -140px;
+  margin-top: -100px;
+  margin-right: 350px;
+}
+
+.qr-code-text {
+  width:300px;
+}
+
+.qr-code-container img{
+  width:150px;
+  height: 130px;
+  margin: 20px;
+}
+.qr-code-container p{
+  font-size: 16px;
+  margin-top: -7px;
+  line-height: 2px;
+}
+.qr-code-container h2{
+  font-size: 18px;
+  margin-top: 50px;
+}
+.main{
+  background-color: rgb(238, 237, 237);
+}
+.main h1{
+  font-size: 33px;
+  font-weight: bold;
+  margin-left:300px ;
+  padding-top: 20px;
+}

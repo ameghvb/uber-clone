@@ -1,0 +1,103 @@
+.header {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: black;
+  color:white;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: space-between;
+  font-family: 'Uber Move Text', sans-serif,Arial, Helvetica, sans-serif;
+}
+.left-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  padding-left:300px;
+  padding-top:16px;
+  padding-bottom:16px;
+  padding-right:10px;
+}
+
+.uber-icon-container {
+
+  font-size:18px;
+  display:flex;
+  flex-direction:row;
+  padding-right:5px;
+}
+
+
+
+.other-left-containers {
+  display:flex;
+  flex-direction:row;
+  padding-top:3px;
+  font-size: 12px;
+}
+
+.containers {
+  padding-left:22px;
+}
+
+.downward-arrow-container {
+  padding-left:7px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+}
+
+.right-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  padding-right:300px;
+  padding-top:16px;
+  padding-bottom:16px;
+  padding-left:-50px;
+  font-size:12px;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.language-selection-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+}
+
+.en-container {
+  padding-left:4px;
+}
+
+.sign-up-button {
+  background-color: white;
+  color:black;
+  border:none;
+  border-radius: 16px;
+  padding-top:8px;
+  padding-bottom:8px;
+  padding-left:10px;
+  padding-right:10px;
+  font-size:12px;
+}
+
+.sign-up-button-container {
+  padding-left:22px;
+}
+
+.right-container-left-side {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  padding-top:4px;
+}
+
+.right-container-right-side {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+}
